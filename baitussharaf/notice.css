@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif; /* changed font family */
+}
+
+/* header design */
+
+.menubar {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between; /* aligns items to the beginning and end of the container */
+    align-items: center; /* vertically centers the items */
+}
+
+#logo img {
+    height: 100px;
+    width: 75px;
+    display: inline-block;
+}
+
+#menu_button ul {
+    list-style-type: none; /* removes default bullet points */
+}
+
+#menu_button ul li {
+    display: inline-block;
+    border: 1px solid #1e9e1e; /* simplified border shorthand */
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#menu_button ul li a {
+    font-family: 'Roboto Condensed', sans-serif; /* changed font family */
+    font-size: 20px; /* added 'px' to specify the font size */
+    font-style: normal;
+    text-decoration: none;
+    color: #1e9e1e;
+}
+
+#menu_button ul li a:hover {
+    background-color: #1e9e1e;
+    color: white;
+}
+
+/* footer design */
+
+footer {
+    background-color: #167516;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offline_details, .online_details {
+    color: whitesmoke;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.offline_details {
+    border-right: 5px double whitesmoke;
+    padding-right: 20px;
+}
+.offline_details #headline span h4{
+    font-family: ubuntu Condensed;
+    font-size: 36px;
+    text-decoration: overline;
+}
+.offline_details #location, #call{
+    font-size: 18px;
+}
+
+.online_details {
+    padding-left: 20px;
+}
+.online_details #email,#fb{
+    font-size: 18px;
+}
+
+/* main body */

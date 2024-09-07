@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header designing */
+
+.menubar {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    height: 100px;
+    width: 75px;
+    display: inline-block;
+}
+
+#menu_button ul {
+    list-style-type: none;
+}
+
+#menu_button ul li {
+    display: inline-block;
+    border: 1px solid #1e9e1e;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#menu_button ul li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1e9e1e;
+}
+
+#menu_button ul li a:hover {
+    background-color: #1e9e1e;
+    color: white;
+}
+
+/* footer design */
+
+footer {
+    background-color: #167516;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offline_details, .online_details {
+    color: whitesmoke;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.offline_details {
+    border-right: 5px double whitesmoke;
+    padding-right: 20px;
+}
+.offline_details #headline span h4{
+    font-family: ubuntu Condensed;
+    font-size: 36px;
+    text-decoration: overline;
+}
+.offline_details #location, #call{
+    font-size: 18px;
+}
+
+.online_details {
+    padding-left: 20px;
+}
+.online_details #email,#fb{
+    font-size: 18px;
+}
+
+/* main body design */
+
+form {
+    background-color: #f0f0f0; /* Light background color for forms */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+form h3 {
+    margin-bottom: 10px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e9e1e;
+    color: white;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1b831b;
+}
+.in_up{
+    display: flex;
+    padding: 10px;
+}
+.signin{
+    width: 50%;
+}
+.signup{
+    width: 50%;
+}
