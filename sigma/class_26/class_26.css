@@ -1,0 +1,8 @@
+ .para1{
+    text-align: justify;
+    width: 35vw;
+    height: 25vh;
+    border: 7px solid black;
+    border-radius: 10px;
+    overflow: auto;
+ }

@@ -1,0 +1,15 @@
+.navbar nav ul li{
+    list-style: none;
+    background-color: greenyellow;
+    list-style-position: inside;
+    border: 7px solid green;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 20vw;
+}
+.navbar nav ul{
+    display: flex;
+}

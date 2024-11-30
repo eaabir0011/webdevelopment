@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* global varriable declear  */
+:root{
+    /* those element can update all the time can be used in in global varriable */
+    --color: rgb(0, 255, 64);
+    --seccolor: rgb(192, 157, 1);
+    --thrcolor: rgb(18, 155, 155);
+}
+.list{
+    background-color: var(--seccolor);
+}
+.list ul{
+    display: flex;
+}
+.list ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    color: var(--thrcolor);
+}
+ul li:first-child{
+    --color: rgb(255, 0, 212);
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--color);
+}

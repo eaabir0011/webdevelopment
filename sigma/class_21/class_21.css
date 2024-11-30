@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.yellow{
+    color: yellowgreen;
+}
+.cred{
+    color: red;
+}
+.cpurple{
+    color:purple;
+}
+[data-a="x"]{
+    color: maroon;
+}

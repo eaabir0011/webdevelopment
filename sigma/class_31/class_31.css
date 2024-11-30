@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+}
+
+/* @media not/only mediatype and (expression) {
+    css code;
+*/
+@media only screen and (max-width:500px){
+    body{
+        background-color: lightsalmon;
+    }
+}
