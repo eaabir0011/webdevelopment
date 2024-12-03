@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #f9f9f9; /* Light neutral background for comfort */
+    color: #333; /* Neutral text color */
+}
+
+header {
+    position: sticky;
+}
+
+.hdrcont {
+    background-color: #295c5c; /* Muted teal for header */
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 2px solid #204545; /* Subtle separation */
+}
+
+.logo {
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #ffeac2; /* Soft cream for logo text */
+}
+.navcont nav ul {
+    list-style-type: none;
+}
+.navcont nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 15px;
+    color: #ffeac2; 
+    border-radius: 6px; 
+    transition: background-color 0.3s ease;
+}
+
+.navcont nav ul li:hover {
+    background-color: #204545; /* Highlight effect */
+    color: #f9f9f9; /* Light text on hover */
+}
+.maincont {
+    background-color: #f1f8e9; /* Soft pastel green for the main section */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.box {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #b0c4b1; /* Softer border for less harshness */
+    background-color: #ffffff; /* Clean white background for boxes */
+    border-radius: 12px; /* Rounded corners for a softer appearance */
+}
+.box1{
+    background-color: #f0a45d; 
+}
+.box2{
+    background-color: #7af05d; 
+}
+
+.fltbtn {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #e07a5f; /* Warm accent color */
+    border-radius: 50%;
+    position: fixed;
+    bottom: 21vh;
+    right: 10px;
+    background-color: #ffe5d8; /* Light peach for contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+}
+
+#flticn {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #295c5c; /* Match header color */
+    height: 20vh;
+    text-align: center;
+    color: #ffeac2; /* Soft cream text */
+    padding: 20px;
+    border-top: 2px solid #204545; /* Subtle separation */
+}

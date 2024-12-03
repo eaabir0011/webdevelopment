@@ -1,0 +1,21 @@
+/* .boxes :first-child{
+    background-color: rgb(236, 186, 170);
+}
+.box::first-line{
+    color: teal;
+}
+.boxes *{
+    border: 3px solid purple;
+    border-radius: 20px;
+}
+[data-color = "primary"]{
+    background-color: teal;
+    color: orange;
+} */
+
+.boxes::before{
+    content: "Abir is worst";
+}
+.boxes::after{
+    content: "Sex is also fun";
+}

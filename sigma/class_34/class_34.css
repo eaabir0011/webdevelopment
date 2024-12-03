@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardshldr{
+    border: 3px solid #148383;
+    display: flow-root;
+}
+.card{
+    border: 2px solid orangered;
+    margin: 10px;
+    padding: 10px;
+}
+.card:nth-child(3){
+    background-color: rgb(255, 230, 221);
+    clear: right;
+}
+#img1{
+    float: right;
+    height: 100%;
+}
